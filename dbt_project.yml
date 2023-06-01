@@ -7,11 +7,11 @@ profile: 'snowflake_prod'
 
 vars:
     linkedin: 
-        ad_analytics_by_creative: "{{ ref('stg_linkedin__ad_analytics_by_creative') }}"
-        creative_history: "{{ ref('stg_linkedin__creative_history') }}"
-        campaign_history: "{{ ref('stg_linkedin__campaign_history') }}"
-        campaign_group_history: "{{ ref('stg_linkedin__campaign_group_history') }}"
-        account_history: "{{ ref('stg_linkedin__account_history') }}"
+       # ad_analytics_by_creative: "{{ ref('stg_linkedin__ad_analytics_by_creative') }}"
+       # creative_history: "{{ ref('stg_linkedin__creative_history') }}"
+       # campaign_history: "{{ ref('stg_linkedin__campaign_history') }}"
+       # campaign_group_history: "{{ ref('stg_linkedin__campaign_group_history') }}"
+       # account_history: "{{ ref('stg_linkedin__account_history') }}"
         linkedin_schema: LINKEDIN_ADS
         linkedin_database: LANDING
 
