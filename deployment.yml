@@ -9,7 +9,7 @@ jobs:
    schedule: 0 3 * * * 
    steps:
      - name: run Linkedin Creatives  
-       command: dbt run #--select test
+       command: dbt run --select test
      #- name: test models
      # command: dbt test # This example will run all your tests.
 
