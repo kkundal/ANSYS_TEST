@@ -12,8 +12,8 @@ vars:
        # campaign_history: "{{ ref('stg_linkedin__campaign_history') }}"
        # campaign_group_history: "{{ ref('stg_linkedin__campaign_group_history') }}"
        # account_history: "{{ ref('stg_linkedin__account_history') }}"
-#         linkedin_schema: LINKEDIN_ADS
-#         linkedin_database: LANDING
+         linkedin_schema: LINKEDIN_ADS
+         linkedin_database: LANDING
 
 models:
     linkedin:
